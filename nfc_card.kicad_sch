@@ -1013,6 +1013,28 @@
 		)
 		(uuid "f2cd1c27-b6a1-48bd-a665-c518b3f26512")
 	)
+	(label "ANT1"
+		(at 46.99 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50cfbc45-48bd-43d8-920c-8a597f4ed87b")
+	)
+	(label "ANT2"
+		(at 55.88 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e8dd0ef-ddc1-444d-9452-33c09161ef19")
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 68.58 105.41 270)
@@ -1168,7 +1190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Loop"
+		(property "Value" "25x48mm"
 			(at 53.34 46.9899 0)
 			(effects
 				(font
@@ -1177,7 +1199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NFC:Antenna_25x48mm"
 			(at 46.99 45.72 0)
 			(effects
 				(font
